@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Grids</title>
+        <style>
+
+            .wrapper{
+                display:grid;
+                grid-template-columns: 70% 30%;
+                /*
+                grid-column-gap:1em;
+                grid-row-gap:1em;
+                */
+               grid-gap:1em;
+            }
+            .wrapper > div{
+                background:#eee;
+                padding:1em;
+            }
+
+            .wrapper > div:nth-child(odd){
+                background:#ddd;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Eius perferendis harum qui totam magnam delectus optio voluptatem, 
+                aliquid repudiandae reprehenderit nemo consequatur? Iusto inventore 
+                voluptatem non dolore voluptates ratione dicta autem provident facilis 
+                aperiam ad, nulla aspernatur! Libero sapiente non aut hic nulla a laboriosam 
+                voluptatibus, facilis quisquam quidem! Praesentium doloribus odit repellendus, 
+                laboriosam exercitationem officiis iste odio soluta id! Provident velit eius ut 
+                ratione dolorum sapiente at. Aliquid molestiae ipsum nesciunt, earum eius molestias
+                 amet repellat itaque ab voluptas?
+            </div>
+            <div>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae dolores quis officiis 
+                consectetur nam. Labore iure facilis ipsam corrupti provident voluptas consequuntur 
+                similique reprehenderit veniam repellat, minus quae illo neque!
+            </div>
+
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Eius perferendis harum qui totam magnam delectus optio voluptatem, 
+                aliquid repudiandae reprehenderit nemo consequatur? Iusto inventore 
+                voluptatem non dolore voluptates ratione dicta autem provident facilis 
+                aperiam ad, nulla aspernatur! Libero sapiente non aut hic nulla a laboriosam 
+                voluptatibus, facilis quisquam quidem! Praesentium doloribus odit repellendus, 
+                laboriosam exercitationem officiis iste odio soluta id! Provident velit eius ut 
+                ratione dolorum sapiente at. Aliquid molestiae ipsum nesciunt, earum eius molestias
+                 amet repellat itaque ab voluptas?
+            </div>
+            <div>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae dolores quis officiis 
+                consectetur nam. Labore iure facilis ipsam corrupti provident voluptas consequuntur 
+                similique reprehenderit veniam repellat, minus quae illo neque!
+            </div>
+
+        </div>
+
+    </body>
+</html>
