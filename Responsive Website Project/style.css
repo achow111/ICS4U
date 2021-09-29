@@ -1,0 +1,174 @@
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+  }
+
+  #map{
+    width: 60%;
+    height: 350px;
+    margin: auto;
+    border-radius: 25px;
+  }
+
+  /* Navbar */
+
+  .navbar {
+    background: #000;
+  }
+
+  #navmenu {
+    position: relative;
+  } 
+
+  .bg-black{
+    background: #000;
+  }
+
+  .bg-main{
+    background: rgb(150, 18, 128);
+  }
+
+  .bg-side{
+    background: #262626;
+  }
+  
+  .bg-side2{
+    background: #23002e;
+  }
+
+  .learn,
+  .instructors-b{
+    background-image: linear-gradient(#000,#23002e);
+  }
+
+  .learn-b,
+  .contact-b{
+    background-image: linear-gradient(#23002e, rgb(150, 18, 128));
+  }
+
+  .accordion-b{
+    background-image: linear-gradient(rgb(150, 18, 128), #000);
+  }
+
+  .accordion-item{
+    background-color:black;
+    color: white;
+  }
+
+  .accordion-button,
+  #quote-showcase{
+    color: white;
+    background-image:  linear-gradient(to right, #23002e,rgb(150, 18, 128) )
+  }
+
+  #sign-up{
+    width:50%;
+    background: none;
+    border-radius: 0;
+    color: #ffffff;
+    border: 2px solid rgb(150, 18, 128);
+  }
+
+  #read-more{
+    width:30%;
+    background: none;
+    border-radius: 0;
+    color: #ffffff;
+    border: 2px solid rgb(150, 18, 128);
+  }
+
+  .card{
+    border-radius: 0;
+    stroke: none;
+  }
+
+  .text-main{
+    color: rgb(150, 18, 128);
+  }
+
+  #instructors i, 
+  #contact i{
+    font-size:60px;
+  }
+
+  .contact-b{
+    border-top-style: dotted;
+    border-color: rgb(150, 18, 128);
+  }
+
+  .modal-title{
+    margin-left:42%;
+  }
+
+  .modal button{
+    border: none;
+  }
+
+  .modal button:hover{
+    background: #8816b5;
+    font-weight: bold;
+  }
+
+  .video{
+    width: 80%;
+    height: 576px;
+  }
+
+  #about-image{
+    width: 100%;
+    height: auto;
+  }
+
+  #showcase-quote{
+    position: relative;
+  }
+
+  #showcase-quote:before{
+    content: '';
+    width: 60px;
+    height: 4px;
+    background: rgb(150, 18, 128);
+    position: absolute;
+    border-radius: 2px;
+    top: -10%;
+  }
+
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+  }
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  @media (min-width: 768px) {
+    .news-input {
+      width: 50%;
+    }
+  }
+
+  @media (max-width: 558px) {
+    #showcase-quote:before{
+      left: 42%;
+    }
+
+    #read-more{
+      width: 50%;
+    }
+  }
+
+  @media (max-width: 280px){
+    #read-more{
+      width: 100%;
+    }
+
+    .learn-column{
+      padding: 100%;
+    }
+  }
