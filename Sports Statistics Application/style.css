@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+    .hide{
+        display: none;
+    }
+
+    #VS{
+        display: none;
+    }
+  }
