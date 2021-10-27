@@ -734,8 +734,8 @@ function nextPage()
 function changePage(page)
 {
     try{
-    var btn_next = document.getElementById("btn_next");
-    var btn_prev = document.getElementById("btn_prev");
+    let  btn_next = document.getElementById("btn_next");
+    let btn_prev = document.getElementById("btn_prev");
 
     if (page < 1) page = 1;
     if (page > numPages) page = numPages;
