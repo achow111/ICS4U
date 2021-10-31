@@ -147,6 +147,18 @@ body::before {
     height: 100%;
   }
 
+  .push-left {
+    margin-right: 100%;
+  }
+
+  #content {
+    min-height: calc(100vh - 40px);
+  }
+
+  .nav-item a:hover{
+    background: rgb(150, 18, 128);
+  }
+
   @media (min-width: 768px) {
     .news-input {
       width: 50%;
